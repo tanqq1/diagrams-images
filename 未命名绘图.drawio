@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T06:10:20.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fl2teFZJ3lSw2Qc5o9S_" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:16:04.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3fr9MVP4Hv34obB4bHdY" version="20.2.2" type="github" pages="2">
   <diagram name="产品规划图" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-7" value="触发 refresh action" style="rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="144" width="220" height="46" as="geometry" />
+          <mxGeometry x="130" y="144" width="220" height="46" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-8" value="" style="curved=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="bGXHBq7ZRL8jHebe2MsM-5" target="bGXHBq7ZRL8jHebe2MsM-7">
           <mxGeometry relative="1" as="geometry">
@@ -157,11 +157,11 @@
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-9" value="主动询价maker查询" style="rounded=1;" vertex="1" parent="1">
           <mxGeometry x="551" y="144" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bGXHBq7ZRL8jHebe2MsM-10" value="" style="curved=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="bGXHBq7ZRL8jHebe2MsM-7" target="bGXHBq7ZRL8jHebe2MsM-9">
+        <mxCell id="bGXHBq7ZRL8jHebe2MsM-10" value="" style="curved=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="330" y="164" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="350" y="162" as="sourcePoint" />
+            <mxPoint x="551" y="162" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-11" value="处理页签埋点" style="rounded=1;" vertex="1" parent="1">
@@ -218,31 +218,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-24" value="message 弹窗销毁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="101.25" y="240" width="147.5" height="35" as="geometry" />
+          <mxGeometry x="219.25" y="240" width="147.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGXHBq7ZRL8jHebe2MsM-25" target="bGXHBq7ZRL8jHebe2MsM-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-25" value="二级用户权限获取：get_user_secondDebtPriv.do" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="316" width="210" height="60" as="geometry" />
+          <mxGeometry x="188" y="316" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-26" value="现券菜单权限：get_user_function_auth.do" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="512" width="210" height="48" as="geometry" />
+          <mxGeometry x="188" y="512" width="210" height="48" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGXHBq7ZRL8jHebe2MsM-32" target="bGXHBq7ZRL8jHebe2MsM-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-32" value="权限变更确认：confirm_changed_priv.do" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="420" width="210" height="50" as="geometry" />
+          <mxGeometry x="188" y="420" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="65" y="790" width="100" height="190" as="geometry" />
+          <mxGeometry x="65" y="760" width="115" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="198" y="792" width="110" height="180" as="geometry" />
+          <mxGeometry x="198" y="760" width="102" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-45" value="页签列表请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="610" width="210" height="55" as="geometry" />
+          <mxGeometry x="183" y="590" width="210" height="55" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-46" value="询价群收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="810" width="80" height="30" as="geometry" />
@@ -269,22 +269,25 @@
           <mxGeometry x="208" y="932" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="792" width="110" height="180" as="geometry" />
+          <mxGeometry x="320" y="760" width="110" height="212" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="792" width="110" height="180" as="geometry" />
+          <mxGeometry x="440" y="760" width="110" height="212" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-57" value="我的任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="810" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-58" value="我的回价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="810" width="80" height="30" as="geometry" />
+          <mxGeometry x="455" y="810" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGXHBq7ZRL8jHebe2MsM-59" target="bGXHBq7ZRL8jHebe2MsM-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-59" value="chunk.js 加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-510" y="144" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bGXHBq7ZRL8jHebe2MsM-61" value="BondTrading.xxxxxxxx.css&lt;br&gt;&lt;br&gt;&lt;br&gt;BondTrading.xxxxxxxx.chunk.js&lt;br&gt;...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-562.5" y="230" width="195" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
