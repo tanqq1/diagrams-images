@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T06:32:01.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NpMbJWvsGYOqOFygAuOB" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:46:42.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qeJ6P50I37wx1G-4kqKe" version="20.2.2" type="github" pages="2">
   <diagram name="产品规划图" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -319,6 +319,15 @@
         </mxCell>
         <mxCell id="bGXHBq7ZRL8jHebe2MsM-65" value="页面懒加载，只在首次将进入页签进行请求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="401" y="750" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bGXHBq7ZRL8jHebe2MsM-71" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;有现券以及主动询价权限才请求主动询价机构配置结构&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bGXHBq7ZRL8jHebe2MsM-72" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;上部分页签、下部分选中的页签进行埋点添加、缓存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bGXHBq7ZRL8jHebe2MsM-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、从缓存中读取 chatOpenId&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、监听右面板 chatOpenId的storage set 事件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="920" y="210" width="170" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
